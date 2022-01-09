@@ -1,0 +1,67 @@
+i.icon-menu.material-icons {
+    display: block;
+}
+header{
+   margin-top:10px;
+}
+.header.fixed {
+top: 0;
+width: fit-content;
+background: #fff;
+right: 0px;
+z-index: 100;
+}
+
+.spectre .navbar .navbar-section{
+   display: contents;
+}
+header  .menu-links{
+display: inline-flex;
+width: fit-content;
+right:0px;
+}
+
+.is-wrapper .is-box .is-container {
+    margin-bottom: 40px;
+}
+
+.material-icons {
+    color: #1bbc9b;
+}
+
+#header-collapse-btn {
+    display: block;
+}
+
+.spectre header.navbar {
+    max-height: 70px;
+    display: block;
+}
+
+.main.container {
+    margin-top: 70px;
+}
+
+@media (max-width: 842px) {
+i.icon-menu.material-icons {
+    display: none;
+}
+.main.container {
+      margin-top: 0px;
+
+}
+.material-icons {
+    color: #1bbc9b;
+}
+
+#header-collapse-btn {
+    display: none;
+}
+
+.spectre header.navbar {
+    max-height: 70px;
+    display: none;
+}
+
+
+}
